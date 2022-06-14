@@ -56,7 +56,7 @@
                 <div class="main-box clearfix">
                     <!--Logo-->
                     <div class="logo-box">
-                         <div class="logo"><a href="{{url('index')}}" title="Treker"><img src="{{asset('images/logo.svg')}}" alt="" title="Treker"></a></div>
+                         <div class="logo"><a href="{{url('welcome')}}" title="Treker"><img src="{{asset('images/logo.svg')}}" alt="" title="Treker"></a></div>
                     </div>
 
                     <div class="nav-box clearfix">
@@ -100,7 +100,7 @@
             <div class="hidden-bar-wrapper">
                 <div class="hidden-bar-closer"><span class="icon"><svg class="icon-close" role="presentation" viewBox="0 0 16 14"><path d="M15 0L1 14m14 0L1 0" stroke="currentColor" fill="none" fill-rule="evenodd"></path></svg></span></div>
                 <div class="nav-logo-box">
-                    <div class="logo"><a href="index.html" title="Treker"><img src="images/logo.svg" alt="" title="Treker"></a></div>
+                    <div class="logo"><a href="{{url('welcome')}}" title="Treker"><img src="images/logo.svg" alt="" title="Treker"></a></div>
                 </div>
                 <!-- .Side-menu -->
                 <div class="side-menu">

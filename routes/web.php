@@ -27,5 +27,7 @@ Route::get('gallery',[FlightController::class, 'gallery']);
 Route::get('terms',[FlightController::class,'terms']);
 Route::get('faq',[FlightController::class,'faq']);
 Route::get('contact',[FlightController::class,'contact']);
+Route::get('login',[FlightController::class,'login']);
 Route::post('login',[FlightController::class,'login']);
+Route::get('signup',[FlightController::class,'signup']);
 Route::post('signup',[FlightController::class,'signup']);
