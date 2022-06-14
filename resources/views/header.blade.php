@@ -98,7 +98,7 @@
                     </div>
 
                     <!-- End Header Upper -->
-                    <div class="search-box">
+                    <!-- <div class="search-box">
                         <div class="outer-container">
                             <div class="inner-box">
                                 <div class="form-box">
@@ -112,7 +112,7 @@
                                 </div>
                             </div>
                         </div>
-                    </div>
+                    </div> -->
 
                 </div>
             </div>
