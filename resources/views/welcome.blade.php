@@ -49,7 +49,7 @@
                             <h2><i class="bg-vector"></i><span>World Best Travel Agency</span></h2>
                             <div class="text">Since 2014, we’ve helped more than 500,000 people of all ages enjoy the best outdoor experience of their lives. Whether it’s for one day or a two-week vacation, close to home or a foreign land.</div>
                         </div>
-                        <div class="lower-box">
+                        <!-- <div class="lower-box">
                             <div class="lower-inner clearfix">
                                 <div class="text-content">
                                     <ul>
@@ -63,7 +63,7 @@
                                     <a href="https://www.youtube.com/watch?v=0xhr0j877bI" class="theme-btn lightbox-image overlink"><span class="icon fa fa-play"></span></a>
                                 </div>
                             </div>
-                        </div>
+                        </div> -->
                     </div>
                 </div>
                 <!--Image Col-->

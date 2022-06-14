@@ -20,7 +20,9 @@ Route::get('welcome',[FlightController::class, 'welcome']);
 Route::get('about',[FlightController::class, 'about']);
 Route::get('destination',[FlightController::class, 'destination']);
 Route::get('booking',[FlightController::class, 'booking']);
-Route::post('book',[FlightController::class, 'booking']);
+Route::post('booking',[FlightController::class, 'book']);
+Route::get('cost',[FlightController::class, 'cost']);
+
 Route::get('gallery',[FlightController::class, 'gallery']);
 Route::get('terms',[FlightController::class,'terms']);
 Route::get('faq',[FlightController::class,'faq']);

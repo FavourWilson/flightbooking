@@ -29,24 +29,31 @@ class FlightController extends Controller
         $data = new Booking();
         $data->current = $request->current;
         $data->destination = $request->dest;
-        $data->depart = $request->leaving;
+        $data->leaving = $request->depart;
         $data->returning = $request->returning;
         $data->noofadult = $request->noofadult;
         $data->noofchildren = $request->noofchildren;
         $data->adultcost = $request->adultcost;
         $data->childrencost = $request->childrencost;
         $data->typeofclass = $request->class;
+        $data->typeoftrip = $request->tripoftype;
+        $total = ($request->noofadult * 150) + ($request->noofchildren * 50);
+        $data->cost = $total;
         $data->save();
 
-        $total = ($request->noofadult * $request->adultcost) + ($request->noofchildren * $request->childrencost);
-        $total = $request->total;
+       
         
         return back();
        
         
         
     }
-
+    public function cost(Request $request)
+    {
+        $id = $request->id;
+        $data = Booking::where('id','=',$id)->first();
+        return view('cost')->with(array('data'=> $data));
+    }
     public function gallery()
     {
         return view('gallery');

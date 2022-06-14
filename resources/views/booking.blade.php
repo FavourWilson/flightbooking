@@ -27,7 +27,7 @@
             </div>
             <div class="form-box site-form">
                 <div class="booking-form">
-                    <form method="POST" action="{{url('book')}}">
+                    <form method="POST" action="{{url('booking')}}">
                     {{ csrf_field() }}
                         <div class="row clearfix">
                             <div class="form-group col-lg-6 col-md-6 col-sm-12">
@@ -84,7 +84,7 @@
                             <div class="form-group col-lg-6 col-md-6 col-sm-12">
                                 <div class="f-label">Trip Type <i>*</i></div>
                                 <div class="field-inner">
-                                    <select name="triptype">
+                                    <select name="tripoftype">
                                         <option disabled>Select from the above</option>
                                         <option>One way</option>
                                         <option>Round Trip</option>
@@ -98,7 +98,7 @@
                                 <div class="rates clearfix" hidden>
                                     <div class="rate-block">Per Adult: <span class="price" name="adultcost" value="120">$120</span></div>
                                     <div class="rate-block">Per Children: <span class="price" name="childrencost" value="50">$50</span></div>
-                                   
+                                    <div class="rate-block">Per Children: <span class="price" name="total">$0.00</span></div>
                                 </div>
                             </div>
                             <div class="form-group col-lg-12 col-md-12 col-sm-12">
