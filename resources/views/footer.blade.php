@@ -146,15 +146,15 @@
 <!--Scroll to top-->
 <div class="scroll-to-top scroll-to-target" data-target="html"><span class="icon"><img src="{{asset('images/icons/arrow-up.svg')}}" alt="" title="Go To Top"></span></div>
 
-<script src="{{asset('js/jquery.js')}}"></script>
-<script src="{{asset('js/popper.min.js')}}"></script>
-<script src="{{asset('js/bootstrap.min.js')}}"></script>
-<script src="{{asset('js/jquery-ui.js')}}"></script>
-<script src="{{asset('js/jquery.fancybox.js')}}"></script>
-<script src="{{asset('js/isotope.js')}}"></script>
-<script src="{{asset('js/touchspin.js')}}"></script>
-<script src="{{asset('js/owl.js')}}"></script>
-<script src="{{asset('js/wow.js')}}"></script>
-<script src="{{asset('js/custom-script.js')}}"></script>
+<script src="{{asset('../js/jquery.js')}}"></script>
+<script src="{{asset('../js/popper.min.js')}}"></script>
+<script src="{{asset('../js/bootstrap.min.js')}}"></script>
+<script src="{{asset('../js/jquery-ui.js')}}"></script>
+<script src="{{asset('../js/jquery.fancybox.js')}}"></script>
+<script src="{{asset('../js/isotope.js')}}"></script>
+<script src="{{asset('../js/touchspin.js')}}"></script>
+<script src="{{asset('../js/owl.js')}}"></script>
+<script src="{{asset('../js/wow.js')}}"></script>
+<script src="{{asset('../js/custom-script.js')}}"></script>
 </body>
 </html>
