@@ -7,7 +7,7 @@
                 <h2>Sign Up</h2>
                 <div class="bread-crumb">
                     <ul class="clearfix">
-                        <li><span class="icon-home fa fa-home"></span><a href="index.html">Home</a></li>
+                        <li><span class="icon-home fa fa-home"></span><a href="{{url('welcome')}}">Home</a></li>
                         <li class="current">Sign Up</li>
                     </ul>
                 </div>

@@ -7,7 +7,7 @@
                 <h2>Login In</h2>
                 <div class="bread-crumb">
                     <ul class="clearfix">
-                        <li><span class="icon-home fa fa-home"></span><a href="index_2.html">Home</a></li>
+                        <li><span class="icon-home fa fa-home"></span><a href="{{url('welcome')}}">Home</a></li>
                         <li class="current">Login In</li>
                     </ul>
                 </div>
@@ -57,7 +57,7 @@
                     </form>
                 </div>
 
-                <div class="lower-link">Don't have a account? <a href="signup_2.html">Sign Up</a> Now</div>
+                <div class="lower-link">Don't have a account? <a href="{{url('signup')}}">Sign Up</a> Now</div>
             </div>
         </div>
     </section>
