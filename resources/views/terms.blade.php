@@ -7,7 +7,7 @@
                 <h2>Term and Condition</h2>
                 <div class="bread-crumb">
                     <ul class="clearfix">
-                        <li><span class="icon-home fa fa-home"></span><a href="index.html">Home</a></li>
+                        <li><span class="icon-home fa fa-home"></span><a href="{{url(/)}}">Home</a></li>
                         <li class="current">Policy and Privacy</li>
                     </ul>
                 </div>
@@ -63,7 +63,8 @@
                                     <h5>OWNERSHIP OF INFORMATION AND MATERIALS</h5>
                                 </div>
                                 <div class="text">
-                                The information and any materials (including white papers, press releases, data sheets, product descriptions, and FAQs) available on or from this website are the copyrighted works of Wakanow, and any unauthorized use of that information or materials may violate copyright, trademark and other laws. 
+                                The information and any materials (including white papers, press releases, data sheets,
+                                 product descriptions, and FAQs) available on or from this website are the copyrighted works of Wakanow, and any unauthorized use of that information or materials may violate copyright, trademark and other laws. 
  Any rights not expressly granted herein are reserved.
                                 </div>
                             </div>
