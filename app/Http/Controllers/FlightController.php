@@ -163,7 +163,7 @@ class FlightController extends Controller
     public function logout()
     {
         Auth::logout();
-        return redirect()->action([MyBoxController::class, 'check']);
+        return redirect('welcome');
     }
 
 }
