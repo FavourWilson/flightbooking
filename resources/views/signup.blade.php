@@ -22,32 +22,40 @@
             <div class="form-box site-form">
                 <div class="signup-form">
                     <h5>Sign Up</h5>
-                    <form method="post" action="contact.html">
+                <form method="post" action="{{url('authenciate')}}">
+                {{ csrf_field() }}
                         <div class="row clearfix">
                             <div class="form-group col-lg-12 col-md-12 col-sm-12">
-                                <div class="f-label">User Name <i>*</i></div>
+                                <div class="f-label">FullName <i>*</i></div>
                                 <div class="field-inner">
-                                    <input type="text" name="fieldname" value="" placeholder="" required>
+                                    <input type="text"  name="name" value="" placeholder="" required>
                                 </div>
                             </div>
                             <div class="form-group col-lg-12 col-md-12 col-sm-12">
                                 <div class="f-label">Email Address <i>*</i></div>
                                 <div class="field-inner">
-                                    <input type="email" name="fieldname" value="" placeholder="" required>
+                                    <input type="email" name="email" value="" placeholder="" required>
+                                </div>
+                            </div>
+                            <div class="form-group col-lg-12 col-md-12 col-sm-12">
+                                <div class="f-label">Phone number<i>*</i></div>
+                                <div class="field-inner">
+                                    <input type="text" name="phone" value="" placeholder="" required>
+                                </div>
+                            </div>
+                            <div class="form-group col-lg-12 col-md-12 col-sm-12">
+                                <div class="f-label">Country<i>*</i></div>
+                                <div class="field-inner">
+                                    <input type="text" name="country" value="" placeholder="" required>
                                 </div>
                             </div>
                             <div class="form-group col-lg-12 col-md-12 col-sm-12">
                                 <div class="f-label">Password <i>*</i></div>
                                 <div class="field-inner">
-                                    <input type="password" name="fieldname" value="" placeholder="" required>
+                                    <input type="password" name="password" value="" placeholder="" required>
                                 </div>
                             </div>
-                            <div class="form-group col-lg-12 col-md-12 col-sm-12">
-                                <div class="f-label">Re-Enter Password <i>*</i></div>
-                                <div class="field-inner">
-                                    <input type="password" name="fieldname" value="" placeholder="" required>
-                                </div>
-                            </div>
+                           
                             
                             <div class="form-group col-lg-12 col-md-12 col-sm-12">
                                 <button type="submit" class="theme-btn btn-style-two"><span>Sign Up<i class="icon far fa-angle-right"></i></span></button>
@@ -56,7 +64,7 @@
                     </form>
                 </div>
 
-                <div class="lower-link">Already have an account? <a href="login.html">Login In</a></div>
+                <div class="lower-link">Already have an account? <a href="{{url('login')}}">Login In</a></div>
             </div>
         </div>
     </section>

@@ -12,6 +12,16 @@ class Booking extends Model
     protected $fillable = [
         'current','destination','leaving','returning','noofadult',
         'noofchildren', 'adultcost', 'childrencost','typeofclass',
-        'typeoftrip','cost'
+        'typeoftrip','cost','userid','id','scheduleid'
     ];
+
+    public function booking()
+    {
+        return $this->belongsTo('userid', App\Models\User);
+    }
+
+    public function schedule()
+    {
+        return $this->belongsTo('scheduleid', App\Models\Schedule);
+    }
 }

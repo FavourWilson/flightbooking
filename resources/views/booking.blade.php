@@ -30,6 +30,12 @@
                     <form method="POST" action="{{url('booking')}}">
                     {{ csrf_field() }}
                         <div class="row clearfix">
+                        <div class="form-group col-lg-6 col-md-6 col-sm-12">
+                                <div class="f-label">Email Address <i>*</i></div>
+                                <div class="field-inner">
+                                    <input type="email" name="email" value="" placeholder="" required>
+                                </div>
+                            </div>
                             <div class="form-group col-lg-6 col-md-6 col-sm-12">
                                 <div class="f-label">Current Location <i>*</i></div>
                                 <div class="field-inner">
@@ -45,15 +51,15 @@
                             <div class="form-group col-lg-6 col-md-6 col-sm-12">
                                 <div class="f-label">Date of Departure <i>*</i></div>
                                 <div class="field-inner">
-                                    <input type="date" name="depart" value="" placeholder="" required>
+                                    <input type="date" name="depart" class="form-control" value="" placeholder="" required>
                                 </div>
                             </div>
                             
                             <div class="form-group col-lg-6 col-md-6 col-sm-12">
                                 <div class="f-label">Date of Returning <i>*</i></div>
                                 <div class="field-inner">
-                                    <input type="date"  name="returning" value="" placeholder="">
-                                    <span class="alt-icon fal fa-calendar fa-fw"></span>
+                                    <input type="date"  name="returning" class="form-control" value="" placeholder="">
+                                    
                                 </div>
                             </div>
                             <div class="form-group col-lg-6 col-md-6 col-sm-12">

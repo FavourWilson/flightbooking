@@ -22,18 +22,19 @@
             <div class="form-box site-form">
                 <div class="login-form">
                     <h5>Login In</h5>
-                    <form method="post" action="contact_2.html">
+                    <form method="post" action="{{url('login')}}">
+                    {{ csrf_field() }}
                         <div class="row clearfix">
                             <div class="form-group col-lg-12 col-md-12 col-sm-12">
                                 <div class="f-label">Email Address <i>*</i></div>
                                 <div class="field-inner">
-                                    <input type="email" name="fieldname" value="" placeholder="" required>
+                                    <input type="email" name="email" value="" placeholder="" required>
                                 </div>
                             </div>
                             <div class="form-group col-lg-12 col-md-12 col-sm-12">
                                 <div class="f-label">Password <i>*</i></div>
                                 <div class="field-inner">
-                                    <input type="password" name="fieldname" value="" placeholder="" required>
+                                    <input type="password" name="password" value="" placeholder="" required>
                                 </div>
                             </div>
                             <div class="form-group col-lg-12 col-md-12 col-sm-12">

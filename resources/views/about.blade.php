@@ -43,14 +43,7 @@
                         </div>
                         <div class="quote-box">
                             <div class="quote">"Since 2014, we’ve helped more than 500,000 people of all ages enjoy the best outdoor experience of their lives."</div>
-                            <div class="quote-info clearfix">
-                                <div class="image"><img src="images/resource/about-thumb-1.jpg" alt="" title=""></div>
-                                <div class="info">
-                                    <span class="name">Jonathon bLIL</span>
-                                    <span class="designation">Founder of treker</span>
-                                </div>
-                                <div class="signature"><img src="images/resource/signature-1.png" alt="" title=""></div>
-                            </div>
+                           
                         </div>
                     </div>
                 </div>
@@ -68,14 +61,7 @@
 
     <!-- Facts Section -->
     <section class="facts-section">
-        <div class="image-layer" style="background-image: url(images/background/image-6.jpg);"></div>
-        <div class="auto-container">
-            <div class="content-box">
-                <div class="video-btn"><a href="https://www.youtube.com/watch?v=0xhr0j877bI" class="theme-btn lightbox-image"><span class="icon"><img src="images/icons/video-icon-2.svg" alt="" title=""></span></a></div>
-                <div class="subtitle">Are you ready to travel?</div>
-                <h2>Treker is a World Leading Online Tour Booking Platform</h2>
-            </div>
-        </div>
+        
         <div class="facts-box">
             <div class="auto-container">
                 <div class="inner-box">

@@ -29,7 +29,6 @@
                         <div class="inner-box">
                             <div class="map-icon"><img src="images/resource/europe-map.svg" alt="" title=""></div>
                             <h5>Europe</h5>
-                            <div class="address text">Europe 45 Gloucester Road <br>London T1M 3BF</div>
                             <div class="phone"><a href="tel:+4402036715709">+44 (0)20 3671 5709</a></div>
                         </div>
                     </div>
@@ -38,7 +37,6 @@
                         <div class="inner-box">
                             <div class="map-icon"><img src="images/resource/asia-map.svg" alt="" title=""></div>
                             <h5>Asia & Pacific</h5>
-                            <div class="address text">2473 Red Road Ste 98 <br>Singapore SG</div>
                             <div class="phone"><a href="tel:+16232116319">+ 1 623 211 6319</a></div>
                         </div>
                     </div>
@@ -47,7 +45,6 @@
                         <div class="inner-box">
                             <div class="map-icon"><img src="images/resource/north-america-map.svg" alt="" title=""></div>
                             <h5>North America</h5>
-                            <div class="address text">Canada 45 Gloucester Road <br>London T1M 3BF</div>
                             <div class="phone"><a href="tel:+45765371319">+ 45 765 371 319</a></div>
                         </div>
                     </div>
